@@ -1,0 +1,35 @@
+@media screen and (max-width: 568px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+
+li {
+  display: inline;
+  margin-right: 40px;
+}
+
+.abox {
+  border: 1px solid;
+  height: 400px;
+  width: 400px;
+}
+
+.aabox {
+  background-color: grey;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-block {
+  position: absolute;
+  top: 10px;
+  color: green;
+  padding-left: 90px;
+  padding-right: 20px;
+}
